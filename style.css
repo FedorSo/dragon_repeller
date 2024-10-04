@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: #060a2c;
+    color: #ffffff;
+}
+
+.img {
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff;
+    width: 650px;
+    border-radius: 15px;
+    color: #000000;
+}
+.info {
+    display: flex;
+    border: #060a2c solid 1px;
+    font-size: 20px;
+}
+
+.info-p {
+    margin: 5px 15px;
+}
+
+.buttons {
+    border: #060a2c solid 1px;
+    border-top: 0;
+    text-align: left;
+}
+
+.btn {
+    margin: 6px 10px;
+    background-color: #9c0707;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #af0808;
+}
+
+.btn:active {
+    background-color: #be0a0a;
+}
+
+.text {
+    border: #060a2c solid 1px;
+    border-top: 0;
+    font-size: 21px;
+    line-height: 1.4;
+    color: #9c0707;
+    font-weight: bold;
+    padding: 4px 15px;
+}
+
+.info-enemy {
+    display: none;
+    border: #060a2c solid 1px;
+    font-size: 20px;
+    border-top: 0;
+    background-color: #9c0707;
+    color: #ffffff;
+}
+
+.info-enemy_p {
+    margin: 6px 15px;
+}
